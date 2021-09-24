@@ -1,0 +1,12 @@
+/*ADJUST ALL*/
+*{
+position:relative;
+left: 30px;
+top:10px;
+}
+
+/*BOX AROUND TITLE*/
+h1{
+border: 3px solid green;
+text-align:center;
+}
