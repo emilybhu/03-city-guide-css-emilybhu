@@ -24,7 +24,12 @@ border: 3px solid green;
 border-radius: 25px;
 }
 
-/*LIST STYLE*/
+/*BOX SHADOW*/
+h1{
+    box-shadow: 10px 10px #95c49f;
+}
+
+    /*LIST STYLE*/
 ul{
     list-style-type: none;
     list-style-position: inside ;
