@@ -1,11 +1,15 @@
 /*ADJUST ALL*/
 *{
 position:relative;
-left: 30px;
+left: 40px;
 top:10px;
 }
 
-/*BOX AROUND TITLE*/
+/*RESIZE 2 ELEMENTS*/
+img{
+    width:300px
+}
+/*BORDER*/
 h1{
 height:100px;
 line-height: 100px;
@@ -13,3 +17,4 @@ text-align:center;
 border: 3px solid green;
 border-radius: 25px;
 }
+
