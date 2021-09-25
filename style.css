@@ -1,11 +1,12 @@
 /*ADJUST ALL*/
-*{
+/*{
 position:relative;
 left: 40px;
-top:10px;
+top:0px;
 }
-
+*/
 /*RESIZE 2 ELEMENTS*/
+
 .Chinatown{
     width:800px;
 }
@@ -27,22 +28,80 @@ border-radius: 25px;
 /*BOX SHADOW*/
 h1{
     box-shadow: 10px 10px #95c49f;
+    width:800px;
 }
 
     /*LIST STYLE*/
-ul{
+ul.hour{
     list-style-type: none;
     list-style-position: inside ;
     background: #95c49f;
     padding: 20px;
+    margin-top:10px;
+    margin-bottom:30px;
 }
 
 /*FORM STYLE*/
 .form{
-    border: 2px solid red;
-    border-radius: 1px;
+    width:800px;
+    height: 100px;
+    margin-top:50px;
+    border: 2px solid green;
+    padding-bottom: 20px;
+
 }
 
+.form_q{
+text-align:center;
+}
 
+/*TABLE STYLE*/
+td, th{
+    border: 1px solid green;
+    text-align:left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+table{
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: rgb(215, 226, 215);
+}
+/*NAV AND HEADER*/
+.navbar {
+    float:left;
+    padding:15px;
+}
+#div1{
+    background:rgb(204, 235, 206);
+}
+#div2{
+    background:rgb(235, 208, 204);
+}
+#div3{
+    background:rgb(204, 214, 235);
+}
+
+.container{
+    padding-top:200px;
+}
+.header{
+    background-color: white;
+    position:fixed;
+    margin-top: -25px;
+}
+/*FLEXBOX REQ*/
+.flexbox{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 70px;
+}
+.flexbox > div{
+    margin:10px;
+    padding:20px;
+}
 
 

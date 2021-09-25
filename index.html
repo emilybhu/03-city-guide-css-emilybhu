@@ -8,14 +8,25 @@
         <meta name="description" content="Things to do in San Francisco,">
         <title>Emily's SF City Guide </title>
     </head>
+<body style="background-color:rgb(255, 255, 255); width:800px; padding-left: 30px;">
 
-<body style="background-color:rgb(255, 250, 242);">
+<!--Header-->
 
+<div class="header">
 <h1 style="color:maroon"><strong> Things to Do in San Francisco</strong> </h1>
 
+    <div id="div1" class="navbar"><a href="#Chinatown">Chinatown</a></div>
+    <div id="div2" class="navbar"><a href="#Wharf">Fisherman's Wharf</a></div>
+    <div id="div3" class="navbar"><a href="#Japantown">Japantown</a></div>
+
+
+</div>
+<!--Container-->
+<div class="container">
+
 <!--Neighborhood 1: Chinatown-->
-<hr>
-<div class="Chinatown">
+<hr style="clear:left">
+<div id="Chinatown" class="Chinatown">
 <h2 style="color:darkred">Chinatown</h2>
 <img src="chinatown.jpeg" alt= "Chinatown Dragon Gate" width="450" height= "300" >
 <h3>Golden Gate Bakery</h3>
@@ -25,7 +36,7 @@ One of the most popular bakeries in Chinatown, and is most famous for its delici
 <p>
     <em>Hours:</em> 
 </p>
-<ul>
+<ul class="hour">
     <li>Mon-Sun: 8 AM-8 PM</li> 
 </ul>
 <h3>Dragon's Gate</h3>
@@ -42,7 +53,7 @@ If you go to Chinatown, you should definitely stop by this iconic entrance for s
 <p>
 <em>Hours:</em> 
 </p>
-<ul>
+<ul class="hour">
     <li>Mon-Sat: 10 AM-7 PM</li>
     <li>Sun: CLOSED</li>
 </ul>
@@ -50,7 +61,7 @@ If you go to Chinatown, you should definitely stop by this iconic entrance for s
 
 <!--Neighborhood 2: Fisherman's Wharf-->
 <hr>
-<div class="Wharf">
+<div id="Wharf" class="Wharf">
 <h2 style="color: darkred;">Fisherman's Wharf</h2>
 <img src="wharf.jpeg" alt= "Fisherman's Wharf" width="450" height= "300" >
 
@@ -67,7 +78,7 @@ Known for its sourdough bread, this oldest continually operating business in San
 <p>
 <em>Hours:</em> 
 </p>
-<ul>
+<ul class="hour">
     <li>Mon-Sat: 12 AM-9 PM</li>
 </ul>
 
@@ -78,14 +89,14 @@ Known for its sourdough bread, this oldest continually operating business in San
 <p>
     <em>Hours:</em> 
 </p>
-<ul>
+<ul class="hour">
     <li>Mon-Sun: 7 AM-10:30 PM</li> 
 </ul>
 </div>
 
 <!--Neighborhood 3: Japantown-->
 <hr>
-<div class="wharf">
+<div id="Japantown" class="Wharf">
 <h2 style="color: darkred;">Japantown</h2>
 <img src="japantown.jpeg" alt= "Japantown" width="450" height= "300" >
 
@@ -96,7 +107,7 @@ Known for its sourdough bread, this oldest continually operating business in San
 <p>
     <em>Hours:</em> 
 </p>
-<ul>
+<ul class="hour">
     <li>Mon-Sun: 10 AM-7 PM</li> 
 </ul>
 <h3>Izumi Kaiten Sushi</h3>
@@ -106,7 +117,7 @@ Known for its sourdough bread, this oldest continually operating business in San
 <p>
     <em>Hours:</em> 
 </p>
-<ul>
+<ul class="hour">
     <li>Mon, Wed, Thu: 12 PM-9 PM</li>
     <li>Tue: 11 AM-7 PM</li>
     <li>Fri: 12 PM-9 PM</li>
@@ -117,43 +128,47 @@ Known for its sourdough bread, this oldest continually operating business in San
 </div>
 <hr>
 <h3>Other Notable Places in San Francisco:</h3>
-<table>
-<tr>
-    <th>Place</th>
-    <th>Address</th>
-</tr>
-<tr>
-    <td>Golden Gate Bridge</td>
-    <td>Golden Gate Bridge, San Francisco, CA</td>
-</tr>
-<tr>
-    <td>Palace of Fine Arts</td>
-    <td>3601 Lyon St, San Francisco, CA 94123</td>
-</tr>
-<tr>
-    <td>San Francisco MOMA</td>
-    <td>151 3rd St, San Francisco, CA 94103</td>
-</tr>
-<tr>
-    <td>Ghirardelli Square</td>
-    <td>900 North Point St Suite F301, San Francisco, CA 94109</td>
-</tr>
-
+<table class="pa">
+    <tr>
+        <th>Place</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>Golden Gate Bridge</td>
+        <td>Golden Gate Bridge, San Francisco, CA</td>
+    </tr>
+    <tr>
+        <td>Palace of Fine Arts</td>
+        <td>3601 Lyon St, San Francisco, CA 94123</td>
+    </tr>
+    <tr>
+        <td>San Francisco MOMA</td>
+        <td>151 3rd St, San Francisco, CA 94103</td>
+    </tr>
+    <tr>
+        <td>Ghirardelli Square</td>
+        <td>900 North Point St Suite F301, San Francisco, CA 94109</td>
+    </tr>
 </table>
-<hr>
+
 <!--Form-->
 <div class="form">
-<p>Which place in SF mentioned above interests you the most?</p>
-<form>
+<p class="form_q">Which place in SF mentioned above interests you the most?</p>
+<form class="form_q">
     <input type="text" name="place">
     <input type="submit" value="Submit">
 </form>
+</div>
 <hr>
 <h2>Additional Resources:</h2>
-<nav>
+<div class="flexbox">
+    <div>
     <a href="https://www.tripadvisor.com/Attractions-g60713-Activities-San_Francisco_California.html">Trip Advisor: Things to do in SF</a> <br>
+</div>
+<div>
     <a href="https://travel.usnews.com/San_Francisco_CA/Things_To_Do/">U.S News 27 Best Things To Do in SF</a>
-</nav>
+</div>
+</div>
 </div>
 </body>
 </html>
