@@ -6,7 +6,15 @@ top:10px;
 }
 
 /*RESIZE 2 ELEMENTS*/
-
+.Chinatown{
+    width:800px;
+}
+.Japantown{
+    width:800px;
+}
+.Wharf{
+    width:800px;
+}
 /*BORDER*/
 h1{
 height:100px;
