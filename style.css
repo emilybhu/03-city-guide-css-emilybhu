@@ -24,11 +24,18 @@ border: 3px solid green;
 border-radius: 25px;
 }
 
-/*FORM STYLING*/
+/*LIST STYLE*/
+ul{
+    list-style-type: none;
+    list-style-position: inside ;
+}
+
+/*FORM STYLE*/
 .form{
     border: 2px solid red;
     border-radius: 4px;
 }
+
 
 
 
